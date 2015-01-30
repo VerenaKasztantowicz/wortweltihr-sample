@@ -1,0 +1,3 @@
+[submodule "wortweltihr-concourse"]
+	path = wortweltihr-concourse
+	url = https://github.com/VerenaKasztantowicz/wortweltihr-concourse
