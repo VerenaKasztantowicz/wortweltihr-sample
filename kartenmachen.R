@@ -1,7 +1,3 @@
-setwd("Documents/Github/wortweltihr")
-getwd()
-install.packages(c("qmethod"), repos = NULL, type="source")
-library(qmethod)
 q.concourse <- import.q.concourse(
   q.concourse.dir = "wortweltihr-sample/wortweltihr-concourse/"
 )
