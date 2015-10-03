@@ -6,8 +6,8 @@ q.sample <- read.csv(
   header = FALSE,
   file = "wortweltihr-sample/sample.csv"
   )
-q.sample <- q.sample$V1
+q.sample <- q.sample$V1  # nur erste Spalte, weil Kommas eingegeben
 q.set <- build.q.set(
   q.concourse = q.concourse,
   q.sample = q.sample,
-  q.distribution = q.distribution)
+  q.distribution = q.distribution)  # Objektname und Argumentname fallen zusammen
